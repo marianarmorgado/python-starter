@@ -40,3 +40,14 @@ for requested_topping in requested_toppings:
         print("Adding " + requested_topping + ".")
 
 print("\nFinished making yout pizza!")
+
+# checking if a list is empty
+
+requested_toppings = []
+
+if requested_toppings:
+    for requested_topping in requested_toppings:
+        print("Adding " + requested_topping + ".")
+    print("\nFinished making your pizza!")
+else:
+    print("Are you sure you want a plane pizza?")
